@@ -16,6 +16,7 @@
 
 * Node.js v8+ or Docker and Docker Compose
 * Postgres running on local instance or Docker
+** add postgres URL on `POSTGRES_HOST`env
 
 ### Running on localMachine
 
@@ -28,11 +29,11 @@
 * Go to swagger page - `localhost:3000/documentation`
 
 ## Postgres 
+ 
+- Postgres Image: **postgres**
+- Port: **5432*8
+- Env:
+    - POSTGRES_PASSWORD: mysecretpassword
+    - POSTGRES_DB: heroes
 
-Postgres image
-Image: postgres
-Port: 5432
-Env:
-- POSTGRES_PASSWORD: mysecretpassword
-- POSTGRES_DB: heroes
-
+```
