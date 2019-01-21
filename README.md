@@ -1,4 +1,11 @@
-## Node.js with Postgres Example
+## Node.js with Postgres Exercises
+
+# Objectives
+
+1. Criar dockerfile e rodar projeto usando o comando `docker run`
+2. Rodar o `postgres` e `linkar` com seu projeto
+3. Criar arquivo `docker-compose` e adicionar serviços
+
 
 <img
     src="https://i.imgur.com/jUeBAiH.png"
@@ -20,9 +27,12 @@
 
 * Go to swagger page - `localhost:3000/documentation`
 
+## Postgres 
+
 Postgres image
 Image: postgres
 Port: 5432
 Env:
 - POSTGRES_PASSWORD: mysecretpassword
 - POSTGRES_DB: heroes
+
