@@ -35,3 +35,7 @@
 - Env:
     - POSTGRES_PASSWORD: mysecretpassword
     - POSTGRES_DB: heroes
+ ## API Heroes
+- Env:
+    - POSTGRES_HOST: postgres:mysecretpassword@postgres:5432
+ 
