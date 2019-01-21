@@ -31,7 +31,7 @@
 ## Postgres 
  
 - Postgres Image: **postgres**
-- Port: **5432*8
+- Port: **5432**
 - Env:
     - POSTGRES_PASSWORD: mysecretpassword
     - POSTGRES_DB: heroes
