@@ -16,7 +16,7 @@
 
 * Node.js v8+ or Docker and Docker Compose
 * Postgres running on local instance or Docker
-** add postgres URL on `POSTGRES_HOST`env
+* Add postgres URL on `POSTGRES_HOST`env
 
 ### Running on localMachine
 
