@@ -35,5 +35,3 @@
 - Env:
     - POSTGRES_PASSWORD: mysecretpassword
     - POSTGRES_DB: heroes
-
-```
